@@ -8,8 +8,8 @@ with open("model/svm_classifier.pkl", "rb") as file:
 
 app = Flask(__name__)
 
-# Define a route for the home page
-@app.route('/')
+# Define a route for the home page #/home danth puluan page name veans venva
+@app.route('/') 
 def home():
     return render_template('index.html')
 
